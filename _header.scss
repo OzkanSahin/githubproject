@@ -1,0 +1,147 @@
+.Header{
+    background-color: #F6F8FA;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    border: 1px solid #D0D7DE;
+    padding: 10px;
+
+    
+
+
+
+    &-logo{
+        display: flex;
+        margin-right:16px;
+        flex-basis: 5%;
+
+        .liste{
+            margin-top: 2px;
+            margin-bottom: 7px;
+            color: gray;
+            font-size: 1.2rem;
+            padding: 5px 5px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-right: 10px;
+            border: 1px solid #D0D7DE;
+            border-radius: 15%;
+            cursor: pointer;
+        }
+
+        i{
+            color: black;
+            cursor: pointer;
+            
+        }
+
+        .small-icon{
+            font-size: 2rem;
+        }
+
+
+        p{
+            font-size: 1.1rem;
+            margin: 10px;
+            color: black;
+        }
+
+        p:hover{
+            text-shadow: 1px 1px #2192ee;
+        }
+    }
+
+    &-right-side{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    &-search{
+        width: 300px;
+        border: 1px solid #D0D7DE;
+        border-radius: 5px;
+
+
+        :focus{
+            border-bottom: 1px solid #8aa8be;
+        }
+        input{
+            background-color: #F6F8FA;
+            width: 270px;
+            margin-left: 20px;   
+            height: 30px;
+            padding: 7px;
+            font-size: 12px;
+            color: #616364;
+            margin-right: 16px;
+            cursor: pointer;
+            border: none;
+            
+        }
+
+        input:focus{
+            outline: none;
+
+        
+           
+        }
+
+    }
+
+     &-rightLinks{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        i{
+            padding: 5px;
+            border: 1px solid #D0D7DE;
+            border-radius: 15%;
+            font-size: 1.2rem;
+        }
+
+        img{
+            width: 35px;
+            border-radius: 50%;
+        }
+
+        i,img{
+            color: black;
+            margin-left: 15px;
+        }
+        
+         i:hover{
+             text-shadow: 1px 1px #2192ee;
+         }
+
+         img:hover{
+            box-shadow: 1px 1px #2192ee;
+         }
+    }
+
+    &-links{
+        margin-top: 20px;
+        flex-basis: 99%;
+
+
+        .active{
+            border-bottom: 2px solid #FD8C73;
+            padding-bottom: 7px;
+        }
+            a{
+                
+                color: black;
+                margin-right: 20px;
+                font-size: 16px;
+                
+            }
+            a:hover{
+                text-shadow: 1px 1px #2192ee;
+            }
+        }
+
+}

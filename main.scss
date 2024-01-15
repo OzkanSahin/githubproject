@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+@import 'normalize';
+@import 'formalize';
+@import 'header';
+@import 'content';
+@import 'responsive';
+@import 'footer';
+
+
+html,body{
+    width: 100%;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    height: 100%;
+}
+
+.icon {
+    display: inline-block;
+    width: 1em;
+    height: 1em;
+    stroke-width: 0;
+    stroke: currentColor;
+    fill: currentColor;
+}

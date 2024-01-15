@@ -1,0 +1,132 @@
+@media (max-width:767px){
+.Header-search{
+    display: none;
+}
+
+.Header-links{
+    a{
+        font-size: 0.9rem;
+    }
+
+    .active{
+        padding-bottom: 9px;
+    }
+}
+
+.Main{
+    display: block;
+    &-about{
+
+       img{
+        display: block;
+        margin: 0 auto;
+        width: 50%;
+       }
+
+       &-dsc{
+        text-align: center;
+       }
+
+       .first-dsc{
+        margin-top: 35px;
+       }
+    }
+
+    &-projects{
+        margin: 0 auto; 
+
+    }
+
+    &-bio{
+        margin-top: 60px;
+    }
+
+}
+
+}
+
+
+
+@media (max-width:585px){
+
+    .Header{
+
+    &-logo{
+
+        .small-icon{
+            font-size: 1.8rem;
+        }
+        .little-icon{
+            font-size: 0.9rem;
+        }
+        p{
+            font-size: 0.8rem;
+        }
+    }
+
+    &-links a{
+        margin-right: 4px;
+        font-size: 10.5px;
+    }
+
+    &-rightLinks{
+        i{
+            font-size: 0.8rem;
+        }
+        img{
+            width: 30px;
+        }
+    }
+}
+
+}
+
+@media (max-width:970px){
+    
+    .footer-list{
+        li:first-child{
+            order: 999;
+            flex-basis: 100%;
+            margin-top: 10px;
+            display: flex;
+            align-items: flex-end;
+            justify-content: center;
+
+            p{
+                margin-left: 10px;
+                margin-bottom: 5px;
+            }
+            
+        }
+    }
+}
+
+
+@media (max-width:1300px){
+    .Main{
+        width: 95%;
+    }
+}
+
+@media (max-width:362px){
+    .Header{
+        &-links a{
+            font-size: 7.5px;
+        }
+
+        &-rightLinks{
+            i{
+                display: none;
+            }
+            img{
+                width: 30px;
+            }
+        }
+    }
+}
+
+@media (max-width:484px){
+    .footer li{
+        font-size: 9.5px;
+    }
+}
